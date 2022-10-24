@@ -1,4 +1,4 @@
-region = "us-east-2"
+region = "us-east-1"
 
 vpc_cidr = "172.16.0.0/16"
 
@@ -16,7 +16,10 @@ preferred_number_of_private_subnets = 4
 
 environment = "dev"
 
-ami = "ami-02f3416038bdb17fb"
+ami-nginx = "ami-07c589885bf79baaf"
+ami-sonar = "ami-09e68c7f2624bb08c"
+ami-web = "ami-07fff985a62415128"
+ami-bastion = "ami-0c54a2f613060b9ae"
 
 keypair = "eoan"
 

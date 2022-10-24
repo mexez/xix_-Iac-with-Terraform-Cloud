@@ -7,3 +7,13 @@
 #     encrypt        = true
 #   }
 # }
+
+terraform {
+  backend "remote" {
+    organization = "eoan"
+
+    workspaces {
+      name = "xix_-Iac-with-Terraform-Cloud"
+    }
+  }
+}
