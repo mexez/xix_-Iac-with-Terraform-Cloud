@@ -23,14 +23,14 @@ ami-bastion = "ami-0c54a2f613060b9ae"
 
 keypair = "eoan"
 
-master-username = "mexy"
+master-username = "eoan"
 
-master-password = "12345qwert.."
+master-password = "Mexdon4570"
 
-account_no = "159658572833"
+account_no = "594164837096"
 
 tags = {
-  Owner-Email = "eezeali@gmail.com"
-  Managed-By = "Terraform"
-  Billing-Account = "Mexy"
+  Owner-Email = "eoanitservice@gmail.com"
+  Managed-By = "eoan"
+  Billing-Account = "eoan"
 }
